@@ -21,4 +21,9 @@ e1.changeCompany("Tesla")
 e1.show()
 print(Employee.company) #without class method it will give "Apple", 
 
+e2 = Employee()
+e2.name = "Rohan"
+e2.show()
+
+
 # with @classmethod decorator, it will change the method.
