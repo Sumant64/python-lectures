@@ -21,7 +21,7 @@ a = Employee()
 # print(a.__name) #cannot be accessed, it will give error
 
 # to access the private variable we need to write
-print(a._Employee__name)
+print(a._Employee__name) # this is called name mangling in python
 
 # We can see all the methods of class by __dir__()
 print(a.__dir__())
